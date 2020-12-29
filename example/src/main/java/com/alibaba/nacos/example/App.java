@@ -29,6 +29,7 @@ import com.alibaba.nacos.api.naming.NamingService;
  */
 public class App {
     public static void main(String[] args) throws NacosException {
+        //
         Properties properties = new Properties();
         properties.setProperty("serverAddr", "21.34.53.5:8848,21.34.53.6:8848");
         properties.setProperty("namespace", "quickStart");
